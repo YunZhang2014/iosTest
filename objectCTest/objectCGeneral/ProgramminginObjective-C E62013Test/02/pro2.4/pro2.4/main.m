@@ -1,6 +1,6 @@
 //
 //  main.m
-//  prog2.1
+//  pro2.4
 //
 //  Created by Yun Zhang on 27/4/17.
 //  Copyright © 2017 Yun Zhang. All rights reserved.
@@ -10,9 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
+        int sum;
+        sum = 50+15;
+        
         // insert code here...
-        NSLog(@"Programming is fun!");
-        NSLog(@"More fun");
+        NSLog(@"the result is %i",sum);
     }
     return 0;
 }
